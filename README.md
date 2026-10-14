@@ -1,17 +1,27 @@
-# first_flutter_app
+# Лабораторная работа №3. Знакомство с Flutter
 
-A new Flutter project.
+Приложение создано в рамках изучения кроссплатформенной разработки на фреймворке Flutter.
 
-## Getting Started
+**Автор:** Павел Алтухов
+**Группа:** ИСП-241
 
-This project is a starting point for a Flutter application.
+### Стек технологий и версии
+* **Flutter:** 3.x.x
+* **Dart:** 3.x.x
+* **Платформа запуска:** Web (Google Chrome)
+* **IDE:** VS Code
 
-A few resources to get you started if this is your first Flutter project:
+### Скриншот работающего приложения
+![Экран приложения](./img/step9_ВашаШамилия.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Инструкция по запуску
+1. Клонировать репозиторий: `git clone <ссылка>`
+2. Перейти в папку проекта: `cd first_flutter_app`
+3. Выполнить установку зависимостей: `flutter pub get`
+4. Запустить проект в браузере: `flutter run -d chrome`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Что было изучено:
+1. Познакомился со структурой файлов и папок Flutter-проекта.
+2. Изучил работу механизмов автоматической перезагрузки Hot Reload и Hot Restart.
+3. Научился работать с базовым деревом виджетов (MaterialApp, Scaffold, Center, Text).
+4. Настроил визуальное оформление с помощью контейнеров, градиентов и стилей текста.
